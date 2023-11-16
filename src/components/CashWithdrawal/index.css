@@ -1,0 +1,80 @@
+/* Write your CSS here */
+
+.bg-container {
+  padding: 30px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #382f5a;
+  border-radius: 20px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 24px;
+  color: #7c3aed;
+  background-color: #382f5a;
+  font-family: 'Roboto';
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.amount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #585076;
+  font-size: 32px;
+  font-family: 'Roboto';
+  margin-right: 10px;
+}
+
+.amount {
+  color: #d4d2db;
+  font-size: 28px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.rupee {
+  color: #585076;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-right: 30px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-size: 500;
+}
+
+.sum {
+  color: #585076;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.denominationlist {
+  list-style-type: none;
+  padding: 0;
+}
