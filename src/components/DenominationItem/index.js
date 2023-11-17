@@ -9,7 +9,7 @@ const DenominationItem = props => {
     updateBalance(value)
   }
   return (
-    <li>
+    <li className="denomination-item">
       <button type="button" className="button" onClick={withdrawMoney}>
         {value}
       </button>
